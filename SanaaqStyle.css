@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'Ilisarniq';
+  src: url('/fonts/Ilisarniq-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Optional: controls how the font loads */
+}
+
+@font-face {
+  font-family: 'Ilisarniq';
+  src: url('/fonts/Ilisarniq-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*need to find Italic version
+@font-face {
+  font-family: 'Ilisarniq';
+  src: url('/fonts/Ilisarniq-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+*/
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+.main-header {
+  position: relative; 
+  margin-top: 80px; 
+  margin-bottom: 60px; 
+  text-align: center; 
+  z-index: 1000; 
+}
+
+.header-image {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+.main-header.scrolled {
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.content {
+  padding-top: 10px; 
+  padding-bottom: 20px; 
+  width: 80%;
+  max-width: 1200px;
+  margin-right: 10%;;
+  margin-left: 10%;
+  box-sizing: border-box;
+}
+
+body {
+  	
+  margin: 0; 
+
+  background-image: url('/images/background-paper-desktop.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;	
+	font-family: 'Ilisarniq', sans-serif;
+	text-shadow: 1px 1px 2	px rgba(0,0,0,0.6); 
+
+
+	
+}
+
+h1, h2, h3 {
+  font-family: 'Ilisarniq', sans-serif;
+  font-weight: bold;
+}
