@@ -24,10 +24,28 @@
 }
 */
 
+.nav-icon {
+    width: 88px;
+    height: 88px;
+}
+  
+
 @media (max-width: 767px) {
-  .container {
-    padding: 0 16px;
-  }
+ 	.container {
+    	padding: 0 16px;
+  	}
+	
+	.nav-icon {
+      	width: 56px !important;
+      	height: 56px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-icon {
+      	width: 40px !important;
+      	height: 40px !important;
+    }
 }
 
 .main-header {
@@ -55,7 +73,7 @@
   padding-bottom: 20px; 
   width: 80%;
   max-width: 1200px;
-  margin-right: 10%;
+  margin-right: 10%;;
   margin-left: 10%;
   box-sizing: border-box;
 }
@@ -71,7 +89,6 @@
   margin-right: auto;
   width: 40%;
 }
-
 
 body {
   	
